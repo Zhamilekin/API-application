@@ -39,11 +39,8 @@ class App(QDialog):
 
         self.pix = QPixmap(self.map_file)
         self.map.setPixmap(self.pix)
-    
-    def keyPressEvent(self, event):
-        key = event.key()
-        if key == Qt.Key_Q: # change to PgUp
-            self.mashtab += 50
+
+
 
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_PageUp:
