@@ -134,8 +134,8 @@
    <property name="geometry">
     <rect>
      <x>350</x>
-     <y>600</y>
-     <width>161</width>
+     <y>690</y>
+     <width>201</width>
      <height>28</height>
     </rect>
    </property>
@@ -153,8 +153,43 @@
     </rect>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>730</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сброс поискового результата</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>610</y>
+     <width>301</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>590</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Найденный адрес</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
 </ui>
-
